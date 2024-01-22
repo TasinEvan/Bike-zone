@@ -27,6 +27,9 @@
                         clifford: '#da373d',
                         'bike-btn': '#E76F51',
                         'bike-bg': ' rgba(231, 111, 81, 0.10)',
+                        'footer-bg': ' var(--Default-Black, #0B0D17)',
+                        'footer-tc': ' var(--Default-White, #FFF)',
+
 
                     }
                 }
@@ -347,9 +350,9 @@
         <section>
             <h1 class="text-5xl font-semibold text-center mt-24 mb-11 ">Frequently Asked  <span class="text-bike-btn">Questions </span></h1>
 
-            <div class="flex flex-col md:flex-row gap-16 items-center">
+            <div class="flex flex-col md:flex-row  md:gap-16 items-center">
                 <div class="flex-1">
-                    <img src="images/others/faq.png" alt="" class="w-full">
+                    <img src="images/others/faq.png" alt="" class="w-4/5">
                 
                 </div>
 
@@ -409,6 +412,66 @@
 
 
     </main>
+
+     <footer class=" bg-footer-bg  " >
+       <div class="w-full md:max-w-[1050px] mx-auto text-base-content footer p-3 md:p-10 g-10 md:gap-80">
+        <div class="flex flex-col gap-4">
+            <nav class="flex flex-row g-1 md:gap-4 text-footer-tc text-sm ">
+            
+                <a class="link link-hover">License</a>
+                <a class="link link-hover">Download Now</a>
+                
+              </nav> 
+              <nav class="flex flex-row gap-4 text-footer-tc  text-sm">
+                
+                <a class="link link-hover">About</a>
+                <a class="link link-hover">Features</a>
+                <a class="link link-hover">Pricing</a>
+                <a class="link link-hover">Careers</a>
+                <a class="link link-hover">Help</a>
+                <a class="link link-hover">Privacy Policy</a>
+              </nav> 
+    
+              <p class="text-footer-tc text-sm ">© 2020 bike. All rights reserved</p>
+           </div>
+            <nav>
+              <header class="footer-title text-footer-tc  text-sm">Get the app</header> 
+              <div class="grid grid-flow-col gap-4">
+                <img src="images/others/android.png" alt="" class="w-1/2">
+                
+                
+               
+                
+              </div>
+              <div>
+                <img src="images/others/ios.png" alt="" class="w-1/2">
+              </div>
+            </nav>
+       </div>
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </body>
